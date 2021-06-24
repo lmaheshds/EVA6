@@ -73,9 +73,13 @@ cuda
         AvgPool2d-24             [-1, 10, 1, 1]               0
 ================================================================
 Total params: 96,352
+
 Trainable params: 96,352
+
 Non-trainable params: 0
 ----------------------------------------------------------------
 Accuracy of the network on the 10000 test images: 80.620 %
+
 EPOCHS = 30
+
 Learning Rate lr=0.018
