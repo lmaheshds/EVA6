@@ -42,42 +42,16 @@ Train and Test the network
 Model Plot for the Accuracy
 
 Model Summary
+
 Requirement already satisfied: torchsummary in /usr/local/lib/python3.7/dist-packages (1.5.1)
 cuda
-----------------------------------------------------------------
-        Layer (type)               Output Shape         Param #
-================================================================
-            Conv2d-1           [-1, 40, 15, 15]           1,120
-       BatchNorm2d-2           [-1, 40, 15, 15]              80
-              ReLU-3           [-1, 40, 15, 15]               0
-            Conv2d-4           [-1, 56, 13, 13]          20,216
-       BatchNorm2d-5           [-1, 56, 13, 13]             112
-              ReLU-6           [-1, 56, 13, 13]               0
-            Conv2d-7           [-1, 64, 11, 11]          32,320
-       BatchNorm2d-8           [-1, 64, 11, 11]             128
-           Dropout-9           [-1, 64, 11, 11]               0
-             ReLU-10           [-1, 64, 11, 11]               0
-           Conv2d-11             [-1, 64, 7, 7]          36,864
-      BatchNorm2d-12             [-1, 64, 7, 7]             128
-          Dropout-13             [-1, 64, 7, 7]               0
-             ReLU-14             [-1, 64, 7, 7]               0
-           Conv2d-15             [-1, 64, 5, 5]             576
-           Conv2d-16             [-1, 40, 5, 5]           2,560
-             ReLU-17             [-1, 40, 5, 5]               0
-           Conv2d-18             [-1, 40, 3, 3]             360
-           Conv2d-19             [-1, 32, 3, 3]           1,280
-             ReLU-20             [-1, 32, 3, 3]               0
-           Conv2d-21             [-1, 32, 1, 1]             288
-           Conv2d-22             [-1, 10, 1, 1]             320
-             ReLU-23             [-1, 10, 1, 1]               0
-        AvgPool2d-24             [-1, 10, 1, 1]               0
-================================================================
+
 Total params: 96,352
 
 Trainable params: 96,352
 
 Non-trainable params: 0
-----------------------------------------------------------------
+
 Accuracy of the network on the 10000 test images: 80.620 %
 
 EPOCHS = 30
