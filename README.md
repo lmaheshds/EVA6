@@ -8,6 +8,7 @@ Our Team members are
 
 Session 7 Assignment
 Problem Statement
+
 Change the code such that it uses GPU
 Change the architecture to C1C2C3C40 (No MaxPooling, but 3 3x3 layers with stride of 2 instead) (If you can figure out how to use Dilated kernels here instead of MP or strided convolution, then 200pts extra!)
 Total RF must be more than 44
@@ -21,6 +22,7 @@ CoarseDropout (max_holes = 1, max_height=16px, max_width=1, min_holes = 1, min_h
 Achieve 85% accuracy, as many epochs as you want. Total Params to be less than 200k.
 
 Assignment S7 brief
+
 The Code flow will be as below
 
 Data-> Dataset-> DataLoader-> Model-> Loss-> Optimizer
@@ -30,6 +32,7 @@ Data is CIFAR10.
 Data loaders to be used is torch.utils.data.DataLoader
 CIFAR10 classes: ‘airplane’, ‘automobile’, ‘bird’, ‘cat’, ‘deer’, ‘dog’, ‘frog’, ‘horse’, ‘ship’, ‘truck’.
 The images in CIFAR-10 are of size 3x32x32, i.e. 3-channel color images of 32x32 pixels in size.
+
 Approach steps
 GPU conversion and verification
 Load and normalizing the CIFAR10 training and test datasets using torchvision
